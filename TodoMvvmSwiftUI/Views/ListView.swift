@@ -32,6 +32,7 @@ struct ListView: View {
                 }
             }
         }
+        .frame(maxWidth: 400)
         .listStyle(PlainListStyle())
         .navigationTitle("TodoList")
         .navigationBarItems(
